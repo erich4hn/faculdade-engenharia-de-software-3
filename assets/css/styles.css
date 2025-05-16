@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030712;
+    max-width: 1200;
+}
+
+.base {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: #d4d4d4;
+}
+
+.base__profile {
+    margin-bottom: 30px;
+}
+
+.base__title {
+    margin-bottom: 15px;
+}
